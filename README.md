@@ -15,7 +15,7 @@ Although the JVM has implemented many optimizations that allows to run programs 
 
 * **Smaller memory footprint** 75% according to [this video](https://youtu.be/7WYVJyuy00g?t=256).
 
-* **Less vulenrabilities** Because there is less code as only the reachable code of the JVM is compiled into the image.
+* **More secure** Because there is less code [and therefore less vulnerabilities] as only the reachable code of the JVM is compiled into the image.
 
 * **Fun!!**
 

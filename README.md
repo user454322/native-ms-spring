@@ -13,6 +13,10 @@ Although the JVM has implemented many optimizations that allows to run programs 
 
 * **Smaller program size**. The image is only XXXMB, compared to XXXMB plus the JVM. Think about cheaper hosting, faster copying and generation of images.
 
+* **Smaller memory footprint** 75% according to [this video](https://youtu.be/7WYVJyuy00g?t=256).
+
+* **Less vulenrabilities** Because there is less code as only the reachable code of the JVM is compiled into the image.
+
 * **Fun!!**
 
 ### Okay, how?
@@ -83,3 +87,4 @@ Hello user454322
 ### References
 * https://docs.spring.io/spring-native/docs/current/reference/htmlsingle
 * https://spring.io/blog/2021/03/11/announcing-spring-native-beta
+* https://youtu.be/7WYVJyuy00g

@@ -53,12 +53,15 @@ $ file target/spring-native-microservice
 target/spring-native-microservice: Mach-O 64-bit executable x86_64
 ```
 
-#### Run
-`target/spring-native-microservice` launches our microservice.
 ```
 $ls -lh target/spring-native-microservice
 -rwxr-xr-x  1 user45432  staff    66M Aug 27 22:23 target/spring-native-microservice*
-```
+```  
+
+
+#### Run
+`target/spring-native-microservice` launches our microservice.
+
 
 Then we can send a request
 ```
